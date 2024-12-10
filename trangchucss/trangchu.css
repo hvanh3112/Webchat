@@ -1,0 +1,82 @@
+﻿body {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+}
+
+.sidebar {
+    display: flex;
+    width: 100%;
+    height: 70px;
+    background-color: rgb(40, 40, 40);
+    color:white;
+    justify-content: space-around;
+    font-family: cursive;
+    font-size: larger;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+}
+
+.nd{
+    margin-top:150px;
+    padding-left: 50px;
+    padding-right: 50px;
+    flex:1;
+}
+.content{
+    display: flex;
+    flex-wrap: wrap;
+}
+.column{
+    flex-grow: 1;
+    flex-basis: 350px;
+    text-align: center; 
+    color: #333;
+    padding: 20px;
+    height: auto;
+    width: auto;
+    border: solid rgb(142, 142, 142) 1px;
+    margin: 20px;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255) ;
+}
+
+.btl {
+    width: 100px;
+    height: 30px;
+    background-color: transparent;
+    border-radius: 10px;
+    border: 1px rgb(255, 255, 255) solid;
+    font-size: 10px;
+    color: white;
+}
+
+    .btl + .btl {
+        margin-left: 30px;
+    }
+
+    .btl:hover {
+        background-color: rgb(255, 255, 255);
+        color:black;
+    }
+
+.footer{
+    margin-top: 200px;
+    padding: 20px;
+    height: 200px;
+    background-color: rgb(40, 40, 40);
+    color:white;
+    display: flex;
+    display: grid;
+    grid-template-columns: 20% 20% 60%;
+    width: auto;
+    height: auto;
+}
+.fh1 li a {
+    text-decoration: none;
+    color: white;
+}
+.fh1 li a:hover{
+    color:aqua;
+}
